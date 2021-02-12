@@ -7,7 +7,7 @@ A sound-card oscilloscope app for Android devices.
 ## Theory of Operation
 Sound-cards in mobile devices and computers use a digital-to-analog converter (ADC) to convert 
 microphone input voltages to digital data. In the Android API, the AudioRecorder class can be used 
-to read ADC output as 16-bit pulse-coded modulated values. The oscilloscope application displays 
+to read ADC output as 16-bit pulse-coded modulated (PCM) data. The oscilloscope application displays 
 this data as a graphical trace.
 
 ### Limitations
