@@ -11,7 +11,7 @@ to read ADC output as 16-bit pulse-coded modulated (PCM) data. The oscilloscope 
 this data as a graphical trace.
 
 ### Limitations
-The ADC in most mobile devices is designed for audio frequencies. The exact  frequency range will 
+The ADC in mobile devices is designed for audio frequencies. The exact frequency range will 
 vary between individual models, but most should be able to sample frequencies between 
 300Hz and 20kHz. DC level voltages should be filtered out in well designed sound-cards.
 
