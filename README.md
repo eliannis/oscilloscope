@@ -16,7 +16,7 @@ for individual device, but most should be able to sample frequencies between 300
 level voltages should be filtered out in well designed sound-cards.
 
 Voltage levels at the microphone input are expected to be quite low. The 
-![Android 3.5mm Headset Jack Specification](https://source.android.com/devices/accessories/headset/jack-headset-spec) 
+[Android 3.5mm Headset Jack Specification](https://source.android.com/devices/accessories/headset/jack-headset-spec) 
 requires a bias voltage of 1.8V - 2.9V. Therefore, it is reasonable to expect the max input peak-to-peak 
 voltage should be no more than 3V - 5V. There are external circuits that can be constructed, 
 to ensure input voltages fall within this range.
