@@ -5,15 +5,16 @@ A sound-card oscilloscope app for Android devices.
 ![Trace Settings](/img/trace-settings.png)
 
 ## Theory of Operation
-Sound-cards in mobile devices and computers use a digital-to-analog converter (ADC) to convert 
+Sound-cards in mobile devices and computers use digital-to-analog converters (ADC) to convert 
 microphone input voltages to digital data. In the Android API, the AudioRecorder class can be used 
 to read ADC output as 16-bit pulse-coded modulated (PCM) data. The oscilloscope application displays 
 this data as a graphical trace.
 
 ### Limitations
-The ADC in mobile devices is designed for audio frequencies. The exact frequency range will 
+The ADC in a mobile device is designed for audio frequencies. The exact frequency range will 
 vary between individual models, but most should be able to sample frequencies between 
-300Hz and 20kHz. DC level voltages should be filtered out in well designed sound-cards.
+300Hz and 20kHz. DC level voltages should be filtered out in well designed sound-cards, to prevent
+hum in the output.
 
 Voltage levels at the microphone input are expected to be quite low. The 
 [Android 3.5mm Headset Jack Specification](https://source.android.com/devices/accessories/headset/jack-headset-spec) 
