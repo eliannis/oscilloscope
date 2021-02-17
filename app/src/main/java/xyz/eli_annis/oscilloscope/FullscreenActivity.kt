@@ -118,6 +118,7 @@ class FullscreenActivity : AppCompatActivity() {
         super.onStop()
         if(audio.sampling) {
             audio.stop()
+            sampleButton.text = resources.getText(R.string.pause)
         }
     }
 
